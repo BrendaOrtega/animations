@@ -1,12 +1,16 @@
 import React from "react";
 export const Footer = () => {
   return (
-    <section className="flex px-[12%] py-20 flex-wrap md:flex-nowrap justify-between items-center bg-evil dark:bg-transparent">
+    <section className="flex pt-0 pb-10 md:py-20 flex-wrap md:flex-nowrap justify-between items-center  ">
       <div>
-        <h3 className="text-white text-4xl dark:text-white">Escríbenos.</h3>
-        <p className="text-lightGray text-xl font-light mt-4">
-          hola@fixtergeek.com
-        </p>
+        <h3 className="text-dark dark:text-white text-3xl md:text-5xl font-bold ">
+          Escríbenos.
+        </h3>
+        <a href="mailto:hola@fixtergeek.com">
+          <p className="text-iron dark:text-metal dark:font-extralight text-lg md:text-xl font-light mt-4">
+            hola@fixtergeek.com
+          </p>
+        </a>
       </div>
       <div className="flex gap-4 mt-6 md:mt-0">
         <a

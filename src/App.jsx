@@ -13,23 +13,29 @@ import { Tools } from "./home/Tools";
 import { Teacher } from "./home/Teacher";
 import { Faq } from "./home/Faq";
 import { Footer } from "./home/Footer";
+import { Testimonials } from "./home/Testimonial";
+import { Example } from "./home/Example";
 
 function App() {
   return (
-    <main className="">
-      <section className="max-w-7xl mx-auto">
-        <nav className="bg-red-500 h-16">
-          <span>logo</span>
-          <ToggleButton />
-        </nav>
-        <Hero />
-        <Tools />
+    <main id="main" className="  bg-white dark:bg-dark">
+      <nav className=" h-16 flex items-center justify-between w-full px-6 md:px-0 lg:max-w-7xl mx-auto">
+        <a>
+          <img className="h-10" src="/Logo.png" alt="logo" />
+        </a>
+        <ToggleButton />
+      </nav>
+      <Hero />
+      <Tools />
+      <section className="w-full px-6 md:px-0 lg:max-w-7xl mx-auto ">
         <Why />
         <Animations />
+        <Testimonials />
         <Pricing />
         <Teacher />
         <Faq />
         <Footer />
+        {/* <Example /> */}
       </section>
     </main>
   );

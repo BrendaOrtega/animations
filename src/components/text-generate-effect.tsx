@@ -37,18 +37,20 @@ export const TextGenerateEffect = ({
       <motion.div ref={scope}>
         {wordsArray.map((word, idx) => {
           return (
-            <motion.span
-              key={word + idx}
-              className={twMerge(
-                "text-7xl text-dark font-bold leading-[110%]",
-                className
-              )}
-              style={{
-                filter: filter ? "blur(10px)" : "none",
-              }}
-            >
-              {word}{" "}
-            </motion.span>
+            <>
+              <motion.span
+                key={word + idx}
+                className={twMerge(
+                  "text-4xl lg:text-7xl text-dark dark:text-white font-bold leading-[110%]",
+                  className
+                )}
+                style={{
+                  filter: filter ? "blur(10px)" : "none",
+                }}
+              >
+                {word}{" "}
+              </motion.span>
+            </>
           );
         })}
       </motion.div>
@@ -58,7 +60,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className=" dark:text-white text-center md:text-left text-black text-2xl leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>

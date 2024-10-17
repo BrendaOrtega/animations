@@ -11,7 +11,7 @@ export const PrimaryButton = ({
   return (
     <button
       className={twMerge(
-        "rounded-full bg-fish text-lg text-white h-14 px-6 flex gap-2 items-center justify-center font-light ",
+        "rounded-full hover:scale-95 transition-all bg-fish text-base md:text-lg text-white h-12 md:h-14 px-6 flex gap-2 items-center justify-center font-light ",
         className
       )}
     >
