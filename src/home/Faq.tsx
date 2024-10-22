@@ -18,7 +18,7 @@ export const Faq = () => (
         <a
           href="https://wa.me/525539599400"
           target="_blank"
-          className="text-fish"
+          className="text-[#777DF7] underline"
         >
           whatsapp
         </a>
@@ -32,7 +32,7 @@ export const Faq = () => (
           />
 
           <Question
-            question="¿Necesito conocimientos previos para tomar este curso?"
+            question="¿Necesito conocimientos previos?"
             answer="Este curso es de nivel intermedio, por lo que sí requieres conocimientos en JavaScript y ReactJs. "
           />
           <Question

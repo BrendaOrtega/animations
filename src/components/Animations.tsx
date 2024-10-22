@@ -4,14 +4,14 @@ import { twMerge } from "tailwind-merge";
 export const Animations = () => {
   return (
     <ScrollReveal>
-      <section className="my-[120px] max-w-7xl mx-auto">
+      <section className="my-[80px] lg:my-[120px]">
         <h2 className="text-dark dark:text-white text-3xl md:text-5xl	text-evil font-bold text-center">
           ¿Qué componentes vamos a construir? 🎨
         </h2>
         <p className="text-iron dark:text-metal font-light text-lg md:text-2xl  text-center mt-4">
           A lo largo de 10 unidades y más de 50 lecciones, aprenderás
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-16 mt-20">
           <Card
             title="Flip words"
             className="bg-flipWords hover:bg-flipWordsGif"
@@ -27,8 +27,8 @@ export const Animations = () => {
           />
           <Card title="Basic Scroll" className="bg-scroll hover:bg-scrollGif" />
           <Card title="3d animations" className="bg-image hover:bg-imageGif" />
-          <Card title="Animated tabs" />
-          <Card title="Link preview" />
+          <Card title="Grid Modal" className="bg-zoom hover:bg-zoomGif" />
+          <Card title="Link preview" className="bg-link hover:bg-linkGif" />
           <Card
             title="Moving border"
             className="bg-border hover:bg-borderGif"
@@ -38,7 +38,10 @@ export const Animations = () => {
             className="bg-slider hover:bg-sliderGif"
           />
           <Card title="Draggable list" className="bg-list hover:bg-listGif" />
-          <Card title="Scroll cards" />
+          <Card
+            title="Infinite moving items"
+            className="bg-infinite hover:bg-infiniteGif"
+          />
         </div>
       </section>
     </ScrollReveal>

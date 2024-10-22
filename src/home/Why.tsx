@@ -5,9 +5,9 @@ export const Why = () => {
   return (
     <ScrollReveal>
       {" "}
-      <section className="	flex flex-wrap-reverse xl:flex-nowrap gap-[64px] pt-[120px] pb-[80px] md:py-[160px]">
+      <section className="	flex flex-wrap-reverse xl:flex-nowrap gap-[64px] pt-[120px] pb-[80px] lg:py-[120px]">
         <img
-          className="h-[240px] w-full md:w-[42%] object-cover rounded-xl md:h-[320px] xl:h-auto"
+          className="h-[240px] w-full xl:w-[42%] object-cover rounded-xl md:h-[320px] xl:h-auto"
           src="https://images.pexels.com/photos/7437487/pexels-photo-7437487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         />
 
@@ -36,7 +36,11 @@ export const Why = () => {
               <p className="  dark:text-metal text-iron font-light mt-2">
                 Al ser parte del curso, también eres parte de la comunidad de
                 Discord, en donde puedes conversar con otros estudiantes o con
-                el instructor para colaborar, pedir feedback o recibir ayuda.{" "}
+                el instructor para{" "}
+                <span className="text-iron dark:text-white/70 font-semibold">
+                  {" "}
+                  colaborar, pedir feedback o recibir ayuda.
+                </span>{" "}
               </p>
             </div>
             <div className="w-full md:w-[50%]">
@@ -44,8 +48,10 @@ export const Why = () => {
                 Aprende de forma flexible ⌛️{" "}
               </h3>
               <p className="  dark:text-metal text-iron font-light mt-2">
-                No es necesario un horario fijo para tomar el curso, hazlo
-                cuando quieras desde donde quieras.{" "}
+                No es necesario un horario fijo para tomar el curso, hazlo{" "}
+                <span className="text-iron dark:text-white/70 font-semibold">
+                  cuando quieras desde donde quieras.
+                </span>{" "}
               </p>
             </div>
           </div>
@@ -56,7 +62,10 @@ export const Why = () => {
               </h3>
               <p className="  dark:text-metal text-iron font-light mt-2">
                 Los ejercicios prácticos que realices durante el curso serán
-                revisados por el instructor y recibirás feedback personalizado.
+                revisados por el instructor y{" "}
+                <span className="text-iron dark:text-white/70 font-semibold">
+                  recibirás feedback personalizado.
+                </span>
               </p>
             </div>
             <div className="w-full md:w-[50%]">
@@ -64,8 +73,12 @@ export const Why = () => {
                 Con acceso permanente 🛟
               </h3>
               <p className="  dark:text-metal text-iron font-light mt-2">
-                Al comprar el curso tienes acceso de por vida desde tu cuenta,
-                además de acceso a todas las futuras actualizaciones.
+                Al comprar el curso tienes{" "}
+                <span className="text-iron dark:text-white/70 font-semibold">
+                  acceso de por vida
+                </span>{" "}
+                desde tu cuenta, además de acceso a todas las futuras
+                actualizaciones.
               </p>
             </div>
           </div>

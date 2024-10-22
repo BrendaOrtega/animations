@@ -5,11 +5,11 @@ import { CardBody, CardContainer, CardItem } from "../components/3dcard";
 
 export const Testimonials = () => {
   return (
-    <section className="py-[120px]">
+    <section className="py-20 md:py-[120px]">
       <h2 className="text-dark dark:text-white text-3xl md:text-5xl text-center 	text-evil font-bold">
         Qué dicen nuestros estudiantes
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mt-12 md:mt-16 gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  mt-12 md:mt-16 gap-8 lg:gap-y-12 xl:gap-12">
         <Comment
           image="https://pbs.twimg.com/profile_images/456497156975644673/QmpE5sMs_400x400.jpeg"
           name="Rodrigo"
@@ -87,7 +87,7 @@ const Comment = ({
           />
 
           <CardItem as="p" translateZ="100">
-            <p className="text-base md:text-lg text-iron dark:text-metal font-light mt-8 md:mt-16">
+            <p className="text-base md:text-lg text-iron dark:text-metal font-light mt-8 md:mt-12 xl:mt-16">
               "{comment}"
             </p>
           </CardItem>
@@ -107,7 +107,9 @@ const Comment = ({
 
             <div>
               <h4 className="text-dark dark:text-metal">{name}</h4>
-              <p className="text-sm text-iron font-light">{tag}</p>
+              <p className="text-sm text-iron dark:text-white/30 font-light">
+                {tag}
+              </p>
             </div>
           </CardItem>
         </CardBody>

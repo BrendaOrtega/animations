@@ -26,13 +26,15 @@ const MyTabs = () => {
       <Tab.List className="flex gap-0 md:gap-10 justify-between md:justify-center w-full md:w-[560px] mx-auto">
         <Tab
           data-headlessui-state="selected"
-          className="border focus:outline-none data-[selected]:outline-fish data-[selected]:border-fish data-[selected]:!bg-white  data-[hover]:bg-transparent  dark:data-[hover]:bg-[#131316] data-[focus]:outline-1 data-[focus]:outline-white   bg-[#ffffff] dark:bg-transparent border-lightGray dark:border-lightGray/20 w-[48%] md:w-[260px] h-[160px] rounded-3xl flex items-center justify-center"
+          className="border focus:outline-none data-[selected]:outline-fish data-[selected]:border-fish  data-[hover]:bg-transparent  dark:data-[hover]:bg-[#131316] data-[focus]:outline-1 data-[focus]:outline-white   bg-[#ffffff] dark:bg-transparent border-lightGray dark:border-lightGray/20 w-[48%] md:w-[260px] h-[160px] rounded-3xl flex items-center justify-center"
         >
           <div>
             <h3 className="text-base md:text-2xl font-medium text-dark dark:text-white">
               Animaciones <br /> con React
             </h3>
-            <p className="text-iron font-light text-sm mt-2">Full course</p>
+            <p className="text-iron font-light dark:text-metal text-sm mt-2">
+              Full course
+            </p>
           </div>
         </Tab>
 
@@ -45,7 +47,7 @@ const MyTabs = () => {
             <h3 className="text-base md:text-2xl text-dark dark:text-white font-medium">
               Animaciones <br /> con React
             </h3>
-            <p className="text-iron font-light text-sm mt-2">
+            <p className="text-iron font-light dark:text-metal text-sm mt-2">
               Full course + Player oficial
             </p>
           </div>
@@ -62,15 +64,17 @@ const MyTabs = () => {
                 delay: 0.2,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
-              className="w-full md:w-[560px] bg-white dark:bg-[#141518]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
+              className="w-full md:w-[560px] bg-white dark:bg-[#1B1D22]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
             >
               <h4 className="text-dark dark:text-white text-5xl font-bold	">
                 <span className="line-through	">$999 </span>{" "}
-                <span className=" text-[#FF4B4B]">$499 </span>
+                <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
+                  $499{" "}
+                </span>
                 <span className="text-xl font-normal text-iron dark:text-metal/70 ">
                   / MXN{" "}
                 </span>
-                <div className="text-base font-light text-iron dark:text-metal/70  flex flex-col gap-4 mt-10">
+                <div className="text-base font-light text-iron dark:text-metal  flex flex-col gap-4 mt-10">
                   <p>
                     📹 12 unidades con tutoriales en video (1 por componente)
                   </p>
@@ -97,23 +101,48 @@ const MyTabs = () => {
               delay: 0.2,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="w-full md:w-[560px] bg-white dark:bg-[#141518]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
+            className="w-full md:w-[560px] bg-white dark:bg-[#1B1D22]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
           >
             {" "}
             <h4 className="text-dark dark:text-white text-5xl font-bold	">
               <span className="line-through	">$1,499 </span>{" "}
-              <span className=" text-[#FF4B4B]">$999 </span>
+              <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
+                $999{" "}
+              </span>
               <span className="text-xl font-normal text-iron dark:text-metal/70  ">
                 / MXN{" "}
               </span>
-              <div className="text-base font-light text-iron dark:text-metal/70 flex flex-col gap-4 mt-10">
-                <p>📹 12 unidades con tutoriales en video (1 por componente)</p>
+              <div className="text-base font-light text-iron dark:text-metal flex flex-col gap-4 mt-10">
+                <p>
+                  📹{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    12 unidades
+                  </strong>{" "}
+                  con tutoriales en video (1 por componente)
+                </p>
                 <p>💪🏻 Learnings y ejercicios por lección</p>
-                <p>📚 Recopilación de recursos extra </p>
+                <p>
+                  📚 Recopilación de{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    recursos extra{" "}
+                  </strong>
+                </p>
                 <p>💀 Acceso de por vida</p>
-                <p>🚀 Actualizaciones futuras del curso</p>
+                <p>
+                  🚀{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    Actualizaciones futuras
+                  </strong>{" "}
+                  del curso
+                </p>
                 <p>🫶🏻 Acceso a la comunidad de Disscord</p>
-                <p>👕 Playera oficial de Fixtergeek</p>
+                <p>
+                  👕{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    Playera oficial
+                  </strong>{" "}
+                  de Fixtergeek
+                </p>
               </div>
               <PrimaryButton className=" mt-12 w-full ">
                 Comprar curso <img src="/cursor.svg" />

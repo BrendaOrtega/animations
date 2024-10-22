@@ -19,8 +19,8 @@ import { Example } from "./home/Example";
 function App() {
   return (
     <main id="main" className="  bg-white dark:bg-dark">
-      <nav className=" h-16  bg-white/40 dark:bg-dark/40 backdrop-blur-md z-[100] w-full px-6 md:px-0  ">
-        <div className="lg:max-w-7xl justify-between items-center h-16 mx-auto flex">
+      <nav className="fixed h-16  bg-white/40 dark:bg-dark/40 backdrop-blur-md z-[100] w-full  px-6 md:px-[6%] lg:px-0 ">
+        <div className="xl:max-w-7xl justify-between items-center h-16 mx-auto flex">
           <a>
             <img className="h-10" src="/Logo.png" alt="logo" />
           </a>
@@ -28,13 +28,9 @@ function App() {
         </div>
       </nav>
       <Hero />
-      <section className="w-full px-6 md:px-0 lg:max-w-7xl mx-auto ">
+      <section className="w-full px-6 md:px-[6%] xl:px-0 xl:max-w-7xl mx-auto ">
         <Why />
-      </section>
-      <img className="w-full" src="/divider.svg" />
-      <Animations />
-      <img className="w-full" src="/divider.svg" />
-      <section className="w-full px-6 md:px-0 lg:max-w-7xl mx-auto ">
+        <Animations />
         <Testimonials />
         <Pricing />
         <Teacher />

@@ -79,7 +79,7 @@ export function Flipper({
       }}
       className={cn(
         "p-12 flex justify-center h-[320px] relative",
-        `bg-${color}`
+        `bg-white dark:bg-dark`
       )}
     >
       <motion.div
@@ -125,7 +125,10 @@ export function Flipper({
           position: "absolute",
           borderTopWidth: "2px",
         }}
-        className={cn("absolute top-[50%] w-full", `border-white`)}
+        className={cn(
+          "absolute top-[50%] w-full",
+          `border-white dark:border-dark`
+        )}
       />
     </article>
   );
