@@ -27,47 +27,39 @@ export const Faq = () => (
       <div className="mt-12 lg:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 ">
         <div className="flex flex-col gap-8">
           <Question
-            question="¿Qué tipo de formularios puedo crear con Formmy?"
-            answer="En Formmy puedes personalizar los campos, el tema, el estilo, el color del botón y hasta el mensaje final. Así que puedes usar Formmy para formularios de contacto, formularios para eventos, o formularios de suscriptores. ¡Tú decides como usarlo!  "
+            question="¿Cómo se imparte el curso?"
+            answer="La modalidad del curso es 100% en línea, por lo que todo el contenido del curso (videos y learnings) se encuentra disponible desde tu perfil de forma permanente. Podrás verlos a tu ritmo: cuando quieras y desde donde quieras."
+          />
+
+          <Question
+            question="¿Necesito conocimientos previos para tomar este curso?"
+            answer="Este curso es de nivel intermedio, por lo que sí requieres conocimientos en JavaScript y ReactJs. "
           />
           <Question
-            question="¿Con qué frameworks es compatible Formmy?"
-            answer={
-              <p>
-                Es{" "}
-                <span className="text-brand-500">
-                  compatible con cualquier framework web
-                </span>
-                . Para agregar Formmy a tu sitio web, solo debes hacer el
-                copy/paste de un iframe. 🥳 🤩
-              </p>
-            }
+            question="¿Cómo funcionan los cursos? ¿Debo seguir un horario específico?"
+            answer="No, los cursos son 100% online y offline, puedes cursarlos a tu ritmo: cuando quieras y desde donde quieras."
           />
           <Question
-            question="¿Cuánto tiempo puedo permanecer en el Plan FREE?"
-            answer="Si no piensas tener más de 3 proyectos y no necesitas acceder a las funcionalidades PRO, puedes quedarte en FREE toda la vida sin pagar nada. 💸👴🏼"
-          />
-          <Question
-            question="¿Cuánto tiempo puedo permanecer en el Plan FREE?"
-            answer="Si no piensas tener más de 3 proyectos y no necesitas acceder a las funcionalidades PRO, puedes quedarte en FREE toda la vida sin pagar nada. 💸👴🏼"
+            question="¿Cómo puedo obtener futuras actualizaciones?"
+            answer="Al comprar el curso tendrás acceso permanente a él, y a sus futuras actualizaciones sin pagos adicionales."
           />
         </div>
         <div className="flex flex-col gap-8">
           <Question
-            question="¿Cúal es la diferencia entre el Plan FREE y PRO?"
-            answer="¡El Plan PRO desbloquea más funcionalidades de Formmy! Como más opciones de personalización, imagenes extra para el mensaje final, campos personalizados, notificaciones específicas, la opción de agregar colaboradores al proyecto, mensajes ilimitados y remosión de la marca de agua."
+            question="¿Cómo compro el curso?"
+            answer="Al dar clic en el botón Comprar curso, serás redirigido al flujo de compra dentro de nuestra página principal, solo completa tu información de pago. El curso estará disponible en tu cuenta en www.fixtergeek.com"
           />
+          <Question
+            question="¿Qué formas de pago aceptan?"
+            answer="Aceptamos todo tipo de tarjetas de crédito o tarjetas débito internacionales (Visa, MasterCard o AMEX) que estén habilitadas para pagos online al extranjero. Si no te es posible pagar por este medio, escríbenos a hola@fixtergeek.com y buscaremos otras opciones."
+          />
+          <Question
+            question="¿Cuál es la diferencia entre el Full course y el Pro Full course?"
+            answer="El contenido de ambos cursos es el mismo, la única diferencia es que el Pro Full course incluye la playera oficial de fixter. Después de tu compra, nos pondremos en contacto contigo para enviarla hasta la puerta de tu casa."
+          />{" "}
           <Question
             question="¿Emiten factura fiscal?"
             answer="Sí, despues de suscribirte al Plan PRO completa tus datos fiscales desde tu perfil>Administrar plan y te haremos llegar tu fatura vía email, si tienes alguna duda escríbenos a hola@formmy.app"
-          />
-          <Question
-            question="¿Qué tipo de negocios pueden usar Deník?"
-            answer="Deník es ideal para diversos negocios como consultorios médicos, centros educativos, clases independientes, gimnasios, clínicas, salones de belleza, estudios de yoga, centros deportivos y muchos más. "
-          />
-          <Question
-            question="¿Qué tipo de negocios pueden usar Deník?"
-            answer="Deník es ideal para diversos negocios como consultorios médicos, centros educativos, clases independientes, gimnasios, clínicas, salones de belleza, estudios de yoga, centros deportivos y muchos más. "
           />
         </div>
       </div>

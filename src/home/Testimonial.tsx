@@ -72,7 +72,7 @@ const Comment = ({
       <CardContainer className="inter-var ">
         <CardBody
           className={twMerge(
-            "col-span-1 border border-lightGray dark:border-lightGray/10 rounded-2xl p-4 relative cursor-pointer hover:shadow-lg transition-all",
+            "col-span-1 border border-lightGray dark:border-lightGray/10 rounded-2xl p-4 relative cursor-pointer hover:shadow-[0_16px_16px_rgba(0,0,0,0.05)] dark:hover:shadow-lg transition-all",
             className
           )}
         >

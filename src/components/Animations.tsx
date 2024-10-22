@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 export const Animations = () => {
   return (
     <ScrollReveal>
-      <section className="my-[120px]">
+      <section className="my-[120px] max-w-7xl mx-auto">
         <h2 className="text-dark dark:text-white text-3xl md:text-5xl	text-evil font-bold text-center">
           ¿Qué componentes vamos a construir? 🎨
         </h2>
@@ -21,14 +21,23 @@ export const Animations = () => {
             className="bg-draggable hover:bg-draggableGif"
           />
           <Card title="3D card" className="bg-cards hover:bg-cardsGif" />
-          <Card title="Hero highlight" />
-          <Card title="Basic Scroll" />
-          <Card title="Hero Parallax" />
+          <Card
+            title="Hero highlight"
+            className="bg-highlight hover:bg-highlightGif"
+          />
+          <Card title="Basic Scroll" className="bg-scroll hover:bg-scrollGif" />
+          <Card title="3d animations" className="bg-image hover:bg-imageGif" />
           <Card title="Animated tabs" />
           <Card title="Link preview" />
-          <Card title="Moving border" />
-          <Card title="Images slider" />
-          <Card title="Draggable list" />
+          <Card
+            title="Moving border"
+            className="bg-border hover:bg-borderGif"
+          />
+          <Card
+            title="Images slider"
+            className="bg-slider hover:bg-sliderGif"
+          />
+          <Card title="Draggable list" className="bg-list hover:bg-listGif" />
           <Card title="Scroll cards" />
         </div>
       </section>

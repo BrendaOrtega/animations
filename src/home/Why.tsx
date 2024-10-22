@@ -5,7 +5,7 @@ export const Why = () => {
   return (
     <ScrollReveal>
       {" "}
-      <section className="	flex flex-wrap-reverse xl:flex-nowrap gap-[64px] pt-[120px] pb-[80px] md:py-[120px]">
+      <section className="	flex flex-wrap-reverse xl:flex-nowrap gap-[64px] pt-[120px] pb-[80px] md:py-[160px]">
         <img
           className="h-[240px] w-full md:w-[42%] object-cover rounded-xl md:h-[320px] xl:h-auto"
           src="https://images.pexels.com/photos/7437487/pexels-photo-7437487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

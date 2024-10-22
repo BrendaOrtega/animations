@@ -1,3 +1,9 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: "selector",
@@ -10,6 +16,8 @@ export default {
         iron: "#495466",
         metal: "#989898",
         lightGray: "#E5E5E5",
+        gris: "#18181C",
+        palo: "#212126",
       },
       backgroundImage: {
         hero: "url('/cover.png')",
@@ -19,8 +27,32 @@ export default {
         cardsGif: "url('/gifs/3dcard.gif')",
         draggable: "url('/gifs/draggable.png')",
         draggableGif: "url('/gifs/draggable.gif')",
+        highlightGif: "url('/gifs/hero-highlight.gif')",
+        highlight: "url('/gifs/highlight.png')",
+        pattern: "url('/pattern.svg')",
+        scrollGif: "url('/gifs/scroll.gif')",
+        scroll: "url('/gifs/simpleScroll.png')",
+        list: "url('/gifs/list.png')",
+        listGif: "url('/gifs/list.gif')",
+        slider: "url('/gifs/slider.png')",
+        sliderGif: "url('/gifs/slider.gif')",
+        border: "url('/gifs/border.png')",
+        borderGif: "url('/gifs/border.gif')",
+        image: "url('/gifs/3dimage.png')",
+        imageGif: "url('/gifs/3dimage.gif')",
       },
     },
   },
-  plugins: [],
+  plugins: [addVariablesForColors],
 };
+
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+
+  addBase({
+    ":root": newVars,
+  });
+}

@@ -2,18 +2,20 @@ import React, { ReactNode, useRef } from "react";
 import { PrimaryButton } from "../components/PrimaryButton";
 import { TextGenerateEffect } from "../components/text-generate-effect";
 import { motion, useInView } from "framer-motion";
+import { Tools } from "./Tools";
 const words = `  Aprende animaciones web con React`;
 
 export const Hero = () => {
   return (
-    <section className=" flex flex-wrap md:flex-nowrap items-center min-h-[84vh]  bg-cover bg-center ">
-      <div className="w-full px-6 md:px-0 lg:max-w-7xl mx-auto">
-        <div className="w-full md:w-[60%]">
+    <section className=" flex flex-wrap md:flex-nowrap bg-pattern bg-contain bg-no-repeat bg-center items-center min-h-[100vh]  ">
+      <div className="w-full px-6 pt-0 md:px-0 lg:max-w-7xl mx-auto flex flex-col items-center">
+        <Tools />
+        <div className="w-full lg:w-[70%] mx-auto ">
           <TextGenerateEffect words={words} />
-          <p className="text-iron dark:text-metal text-center md:text-left text-lg lg:text-2xl font-light dark:font-extralight mt-3 mb-12">
+          <p className="text-iron dark:text-metal text-center text-lg lg:text-2xl font-light dark:font-extralight mt-3 mb-12">
             Construye 12 componentes para tus proyectos web
           </p>
-          <PrimaryButton className="w-full md:w-auto">
+          <PrimaryButton className="w-full md:w-auto mx-auto">
             Comprar <img src="/cursor.svg" />
           </PrimaryButton>
         </div>
