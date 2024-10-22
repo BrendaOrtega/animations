@@ -5,13 +5,13 @@ export const Animations = () => {
   return (
     <ScrollReveal>
       <section className="my-[80px] lg:my-[120px]">
-        <h2 className="text-dark dark:text-white text-3xl md:text-5xl	text-evil font-bold text-center">
+        <h2 className="text-dark dark:text-white text-3xl md:text-4xl lg:text-5xl	text-evil font-bold text-center">
           ¿Qué componentes vamos a construir? 🎨
         </h2>
-        <p className="text-iron dark:text-metal font-light text-lg md:text-2xl  text-center mt-4">
-          A lo largo de 10 unidades y más de 50 lecciones, aprenderás
+        <p className="text-iron dark:text-metal font-light text-lg md:text-xl lg:text-2xl  text-center mt-4">
+          A lo largo de 12 unidades y más de 20 lecciones, construirás
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-16 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-16 mt-12 md:mt-20">
           <Card
             title="Flip words"
             className="bg-flipWords hover:bg-flipWordsGif"

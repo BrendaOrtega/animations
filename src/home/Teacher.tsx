@@ -7,8 +7,8 @@ import { FaGithub } from "react-icons/fa6";
 export const Teacher = () => {
   return (
     <ScrollReveal>
-      <section className="flex overflow-hidden flex-wrap lg:flex-nowrap bg-[#FAFAFF] dark:bg-transparent dark:border dark:border-white/10  md:pl-12 gap-12 justify-between rounded-[40px] my-10 md:my-[100px]">
-        <div className="w-full lg:w-[45%] py-6 md:py-12">
+      <section className="flex overflow-hidden flex-wrap lg:flex-nowrap bg-[#FAFAFF] dark:bg-transparent dark:border dark:border-white/10 px-6  md:pr-0 md:pl-12 gap-12 justify-between rounded-[40px] my-10 md:my-[100px]">
+        <div className="w-full lg:w-[45%] pt-8 pb-6 md:py-12">
           <span className="text-dark dark:text-metal font-light dark:font-extralight  text-xl">
             ¿Quien será tu instructor? 🧑🏻‍🏫
           </span>
@@ -46,11 +46,11 @@ export const Teacher = () => {
           <FloatingMedia />
         </div>
         <img
-          className="block dark:hidden w-full rounded-full  lg:w-[50%] md:object-contain bg-left"
+          className="hidden lg:block dark:hidden w-full rounded-full md:rounded-none  lg:w-[50%] md:object-contain bg-left"
           src="/titor.png"
         />
         <img
-          className="w-full lg:w-[50%] object-cover object-left hidden dark:block "
+          className="w-full lg:w-[50%] object-cover object-left hidden dark:hidden dark:lg:block "
           src="/titor-w.png"
         />
       </section>

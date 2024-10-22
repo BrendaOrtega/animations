@@ -12,7 +12,7 @@ export const Why = () => {
         />
 
         <div>
-          <h2 className="dark:text-white  text-3xl md:text-5xl	text-dark font-bold">
+          <h2 className="dark:text-white  text-3xl md:text-4xl lg:text-5xl	text-dark font-bold">
             Porqué tomar este curso 🎯
           </h2>
           <p className="text-lg  dark:text-metal text-iron font-light mt-6">

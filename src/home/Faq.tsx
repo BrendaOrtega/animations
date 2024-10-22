@@ -9,7 +9,7 @@ import { ScrollReveal } from "./hero";
 export const Faq = () => (
   <ScrollReveal>
     <section className="py-[120px]">
-      <h2 className=" text-dark  dark:text-white text-3xl lg:text-5xl font-bold text-center">
+      <h2 className=" text-dark  dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         {" "}
         ¿Tienes alguna duda ? 🎨
       </h2>

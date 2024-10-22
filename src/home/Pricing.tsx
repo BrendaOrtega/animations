@@ -8,7 +8,7 @@ export const Pricing = () => {
   return (
     <ScrollReveal>
       <section className="text-center py-[80px] md:py-[120px] ">
-        <h2 className="text-3xl md:text-5xl	text-evil text-dark dark:text-white font-bold">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl	text-evil text-dark dark:text-white font-bold">
           ¿Qué incluye el curso? 🚀
         </h2>
         <p className="text-lg md:text-2xl text-iron dark:text-metal dark:font-extralight font-light mt-6 mb-16">
@@ -66,7 +66,7 @@ const MyTabs = () => {
               }}
               className="w-full md:w-[560px] bg-white dark:bg-[#1B1D22]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
             >
-              <h4 className="text-dark dark:text-white text-5xl font-bold	">
+              <h4 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
                 <span className="line-through	">$999 </span>{" "}
                 <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
                   $499{" "}
@@ -74,20 +74,18 @@ const MyTabs = () => {
                 <span className="text-xl font-normal text-iron dark:text-metal/70 ">
                   / MXN{" "}
                 </span>
-                <div className="text-base font-light text-iron dark:text-metal  flex flex-col gap-4 mt-10">
-                  <p>
-                    📹 12 unidades con tutoriales en video (1 por componente)
-                  </p>
-                  <p>💪🏻 Learnings y ejercicios por lección</p>
-                  <p>📚 Recursos extra </p>
-                  <p>💀 Acceso de por vida</p>
-                  <p>🚀 Actualizaciones futuras del curso</p>
-                  <p>🫶🏻 Acceso a la comunidad de Disscord</p>
-                </div>
-                <PrimaryButton className=" mt-12 w-full ">
-                  Comprar curso <img src="/cursor.svg" />
-                </PrimaryButton>
               </h4>
+              <div className="text-base font-light text-iron dark:text-metal  flex flex-col gap-4 mt-10">
+                <p>📹 12 unidades con tutoriales en video (1 por componente)</p>
+                <p>💪🏻 Learnings y ejercicios por lección</p>
+                <p>📚 Recursos extra </p>
+                <p>💀 Acceso de por vida</p>
+                <p>🚀 Actualizaciones futuras del curso</p>
+                <p>🫶🏻 Acceso a la comunidad de Disscord</p>
+              </div>
+              <PrimaryButton className=" mt-12 w-full ">
+                Comprar curso <img src="/cursor.svg" />
+              </PrimaryButton>
             </motion.div>
           </Tab.Panel>
         </AnimatePresence>
@@ -104,7 +102,7 @@ const MyTabs = () => {
             className="w-full md:w-[560px] bg-white dark:bg-[#1B1D22]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
           >
             {" "}
-            <h4 className="text-dark dark:text-white text-5xl font-bold	">
+            <h4 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
               <span className="line-through	">$1,499 </span>{" "}
               <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
                 $999{" "}
@@ -112,42 +110,42 @@ const MyTabs = () => {
               <span className="text-xl font-normal text-iron dark:text-metal/70  ">
                 / MXN{" "}
               </span>
-              <div className="text-base font-light text-iron dark:text-metal flex flex-col gap-4 mt-10">
-                <p>
-                  📹{" "}
-                  <strong className="font-semibold text-iron dark:text-white/60">
-                    12 unidades
-                  </strong>{" "}
-                  con tutoriales en video (1 por componente)
-                </p>
-                <p>💪🏻 Learnings y ejercicios por lección</p>
-                <p>
-                  📚 Recopilación de{" "}
-                  <strong className="font-semibold text-iron dark:text-white/60">
-                    recursos extra{" "}
-                  </strong>
-                </p>
-                <p>💀 Acceso de por vida</p>
-                <p>
-                  🚀{" "}
-                  <strong className="font-semibold text-iron dark:text-white/60">
-                    Actualizaciones futuras
-                  </strong>{" "}
-                  del curso
-                </p>
-                <p>🫶🏻 Acceso a la comunidad de Disscord</p>
-                <p>
-                  👕{" "}
-                  <strong className="font-semibold text-iron dark:text-white/60">
-                    Playera oficial
-                  </strong>{" "}
-                  de Fixtergeek
-                </p>
-              </div>
-              <PrimaryButton className=" mt-12 w-full ">
-                Comprar curso <img src="/cursor.svg" />
-              </PrimaryButton>
             </h4>
+            <div className="text-base font-light text-iron dark:text-metal flex flex-col gap-4 mt-10">
+              <p>
+                📹{" "}
+                <strong className="font-semibold text-iron dark:text-white/60">
+                  12 unidades
+                </strong>{" "}
+                con tutoriales en video (1 por componente)
+              </p>
+              <p>💪🏻 Learnings y ejercicios por lección</p>
+              <p>
+                📚 Recopilación de{" "}
+                <strong className="font-semibold text-iron dark:text-white/60">
+                  recursos extra{" "}
+                </strong>
+              </p>
+              <p>💀 Acceso de por vida</p>
+              <p>
+                🚀{" "}
+                <strong className="font-semibold text-iron dark:text-white/60">
+                  Actualizaciones futuras
+                </strong>{" "}
+                del curso
+              </p>
+              <p>🫶🏻 Acceso a la comunidad de Disscord</p>
+              <p>
+                👕{" "}
+                <strong className="font-semibold text-iron dark:text-white/60">
+                  Playera oficial
+                </strong>{" "}
+                de Fixtergeek
+              </p>
+            </div>
+            <PrimaryButton className=" mt-12 w-full ">
+              Comprar curso <img src="/cursor.svg" />
+            </PrimaryButton>
           </motion.div>
         </Tab.Panel>
       </Tab.Panels>

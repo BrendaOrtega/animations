@@ -7,10 +7,10 @@ const words = `  Aprende animaciones web con React`;
 
 export const Hero = () => {
   return (
-    <section className=" flex flex-wrap md:flex-nowrap bg-pattern bg-contain bg-no-repeat bg-center pt-[120px]  min-h-[100vh]  ">
+    <section className=" flex flex-wrap md:flex-nowrap bg-pattern bg-contain bg-no-repeat bg-center pt-20 md:pt-[120px]  min-h-[100vh]  ">
       <div className="w-full px-6 pt-0 md:px-0 lg:max-w-7xl mx-auto flex flex-col items-center ">
         <Tools />
-        <div className="w-full lg:w-[70%] mx-auto mt-12 ">
+        <div className="w-full lg:w-[70%] mx-auto mt-0 md:mt-12 ">
           <TextGenerateEffect words={words} />
           <p className="text-iron dark:text-metal text-center text-lg lg:text-2xl font-light dark:font-extralight mt-3 mb-12">
             Construye 12 componentes animados para tus proyectos web

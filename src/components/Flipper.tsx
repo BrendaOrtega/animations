@@ -69,7 +69,7 @@ export function Flipper({
 
   // @TODO: CREATE COMPONENTS?
   const generalClass =
-    "text-white text-8xl items-center overflow-hidden w-80 h-56 justify-center absolute z-30 flex rounded-xl";
+    "text-white text-8xl items-center overflow-hidden w-64 md:w-80 h-56 justify-center absolute z-30 flex rounded-xl";
   return (
     <article
       style={{
