@@ -2,7 +2,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <section className=" bg-dark  pt-10 pb-10 md:py-20   ">
-      <div className="w-full px-6 md:px-[6%] xl:max-w-7xl mx-auto flex flex-wrap md:flex-nowrap justify-between items-center">
+      <div className="w-full px-6 md:px-[6%] xl:px-0 lg:max-w-7xl mx-auto flex flex-wrap md:flex-nowrap justify-between items-center">
         <div>
           <h3 className="text-white text-3xl md:text-5xl font-bold ">
             Escríbenos.

@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 export const Pricing = () => {
   return (
     <ScrollReveal>
-      <section className="text-center py-[80px] md:py-[120px] ">
+      <section className="text-center py-[80px] lg:py-[120px] ">
         <h2 className="text-3xl md:text-4xl lg:text-5xl	text-evil text-dark dark:text-white font-bold">
           ¿Qué incluye el curso? 🚀
         </h2>

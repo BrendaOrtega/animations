@@ -5,7 +5,7 @@ import { CardBody, CardContainer, CardItem } from "../components/3dcard";
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 md:py-[120px]">
+    <section className="py-20 md:py-20 xl:py-[120px]">
       <h2 className="text-dark dark:text-white text-3xl md:text-4xl lg:text-5xl text-center 	text-evil font-bold">
         Qué dicen nuestros estudiantes
       </h2>

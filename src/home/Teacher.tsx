@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 export const Teacher = () => {
   return (
     <ScrollReveal>
-      <section className="flex overflow-hidden flex-wrap lg:flex-nowrap bg-[#FAFAFF] dark:bg-transparent dark:border dark:border-white/10 px-6  md:pr-0 md:pl-12 gap-12 justify-between rounded-[40px] my-10 md:my-[100px]">
+      <section className="flex overflow-hidden flex-wrap lg:flex-nowrap bg-[#FAFAFF] dark:bg-transparent dark:border dark:border-white/10 px-6  md:pr-0 md:pl-12 gap-12 justify-between rounded-[40px] my-10 md:my-20 lg:my-[120px]">
         <div className="w-full lg:w-[45%] pt-8 pb-6 md:py-12">
           <span className="text-dark dark:text-metal font-light dark:font-extralight  text-xl">
             ¿Quien será tu instructor? 🧑🏻‍🏫

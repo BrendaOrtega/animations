@@ -8,7 +8,7 @@ import { ScrollReveal } from "./hero";
 
 export const Faq = () => (
   <ScrollReveal>
-    <section className="py-[120px]">
+    <section className="lg:pt-[120px] lg:pb-[160px] pt-20 pb-[120px]">
       <h2 className=" text-dark  dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         {" "}
         ¿Tienes alguna duda ? 🎨

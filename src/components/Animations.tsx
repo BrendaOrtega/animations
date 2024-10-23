@@ -58,14 +58,14 @@ const Card = ({
   className?: string;
 }) => {
   return (
-    <section className="col-span-1">
+    <section className="col-span-1 group">
       <div
         className={twMerge(
           "bg-cover bg-center w-full h-[240px] md:h-[280px] rounded-lg transition-all cursor-pointer dark:border dark:border-lightGray/10",
           className
         )}
       ></div>
-      <h3 className="font-semibold text-dark dark:text-white  mt-3 text-2xl">
+      <h3 className="font-semibold text-dark dark:text-white  mt-3 text-2xl group-hover:translate-x-6 transition-all">
         {title}
       </h3>
     </section>

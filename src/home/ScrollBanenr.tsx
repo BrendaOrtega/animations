@@ -1,28 +1,24 @@
-import { Banners, Robot } from "../components/Banners";
 import React from "react";
+import { Marquee } from "../components/Banners";
 
 export const ScrollBanner = () => {
   return (
-    <Banners>
-      <>
-        Scroll Animations
-        <Robot /> Parallax <Robot /> Efectos 3d <Robot /> Drawers <Robot />
-        Galerías <Robot /> Carrousel
-        <Robot /> Cards animadas
-        <Robot /> Draggable elements <Robot /> Scroll Animations
-        <Robot /> Parallax <Robot /> Efectos 3d <Robot /> Drawers <Robot />
-        Galerías <Robot /> Carrousel
-        <Robot /> Cards animadas
-        <Robot /> Draggable elements <Robot />
-      </>
-      <>
-        No más sitios web estáticos <Robot /> Agrega animaciones a tu sitio web
-        <Robot /> Personaliza tus animaciones <Robot /> Crea tus propios
-        componentes <Robot /> No más sitios web estáticos <Robot /> Agrega
+    <>
+      <Marquee>
+        No más sitios web estáticos <span className="mx-3">🪄</span> Agrega
         animaciones a tu sitio web
-        <Robot /> Personaliza tus animaciones <Robot /> Crea tus propios
-        componentes <Robot />
-      </>
-    </Banners>
+        <span className="mx-3">🧙🏻</span> Personaliza tus animaciones
+        <span className="mx-3">🤩</span> Crea tus propios componentes
+        <span className="mx-3">🎛️</span>
+      </Marquee>
+      <Marquee reversed className="bg-fish">
+        Scroll Animations<span className="mx-3">🎐</span> Parallax
+        <span className="mx-3">💻</span> Efectos 3d{" "}
+        <span className="mx-3">🎯</span> Drawers<span className="mx-3">👀</span>{" "}
+        Galerías<span className="mx-3">🏞️</span> Dynamic cards{" "}
+        <span className="mx-3">🚀</span>Text effects{" "}
+        <span className="mx-3">💬</span> Modals <span className="mx-3">🔥</span>
+      </Marquee>
+    </>
   );
 };
