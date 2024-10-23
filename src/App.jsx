@@ -15,6 +15,7 @@ import { Faq } from "./home/Faq";
 import { Footer } from "./home/Footer";
 import { Testimonials } from "./home/Testimonial";
 import { Example } from "./home/Example";
+import { ScrollBanner } from "./home/ScrollBanenr";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </div>
       </nav>
       <Hero />
+      <ScrollBanner />
       <section className="w-full px-6 md:px-[6%] xl:px-0 xl:max-w-7xl mx-auto ">
         <Why />
         <Animations />

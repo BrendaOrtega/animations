@@ -7,7 +7,7 @@ const words = `  Aprende animaciones web con React`;
 
 export const Hero = () => {
   return (
-    <section className=" flex flex-wrap md:flex-nowrap bg-pattern bg-contain bg-no-repeat bg-center pt-20 md:pt-[120px]  min-h-[100vh]  ">
+    <section className=" flex flex-wrap md:flex-nowrap  bg-contain bg-no-repeat bg-center pt-20 md:pt-[120px]  min-h-[88vh]  ">
       <div className="w-full px-6 pt-0 md:px-0 lg:max-w-7xl mx-auto flex flex-col items-center ">
         <Tools />
         <div className="w-full lg:w-[70%] mx-auto mt-0 md:mt-12 ">
