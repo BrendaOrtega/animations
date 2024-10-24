@@ -106,7 +106,7 @@ export function Flipper({
       {/* Prev */}
       <motion.div
         style={{
-          clipPath: "xywh(0 50% 100% 100% round 0 0)",
+          clipPath: "polygon(0px 50%, 100% 50%, 100% 100%, 0px 100%)",
         }}
         className={cn(generalClass, "z-20")}
       >

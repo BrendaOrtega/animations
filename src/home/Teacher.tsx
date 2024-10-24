@@ -32,8 +32,8 @@ export const Teacher = () => {
             <strong className="text-gray-800 dark:text-white/60  font-medium">
               enseña los temas más actualizados de la industria tecnológica,
             </strong>{" "}
-            acercando las herramientas que usan los profesionales nivel mundial
-            a sus estudiantes de habla hispana.{" "}
+            acercando las herramientas que usan los profesionales a nivel
+            mundial a sus estudiantes de habla hispana.{" "}
           </p>
           <p className="mt-6 text-iron dark:text-metal dark:font-extralight font-normal md:font-light ">
             {" "}
@@ -48,10 +48,12 @@ export const Teacher = () => {
         <img
           className="hidden lg:block dark:hidden w-full rounded-full md:rounded-none  lg:w-[50%] md:object-contain bg-left"
           src="/titor.png"
+          alt="Héctor"
         />
         <img
           className="w-full lg:w-[50%] object-cover object-left hidden dark:hidden dark:lg:block "
           src="/titor-w.png"
+          alt="Héctor sepia"
         />
       </section>
     </ScrollReveal>

@@ -19,6 +19,7 @@ export const ToggleButton = () => {
 
   return (
     <Switch
+      title="Seleccion de tema"
       checked={enabled}
       onChange={toggle}
       className="group inline-flex h-8 w-[52px] items-center rounded-full bg-[#F6F6F6] transition data-[checked]:bg-[#242424] "

@@ -44,6 +44,7 @@ const MyTabs = () => {
             <img
               className="w-16 absolute -right-3 -top-14 md:-right-10 "
               src="/best-seller.svg"
+              alt="best seller"
             />
             <h3 className="text-xl md:text-2xl text-dark dark:text-white font-medium">
               Animaciones <br /> con React
@@ -67,15 +68,19 @@ const MyTabs = () => {
               }}
               className="w-full md:w-[560px] bg-white dark:bg-[#1B1D22]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
             >
-              <h4 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
+              {" "}
+              <p className="mb-3 text-[#DE665F] dark:text-[#C8496C] ">
+                Precio especial Earlybird
+              </p>{" "}
+              <h3 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
                 <span className="line-through	">$999 </span>{" "}
-                <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
+                <span className=" text-[#DE665F] dark:text-[#C8496C] ml-2">
                   $599{" "}
                 </span>
                 <span className="text-xl font-normal text-iron dark:text-metal/70 ">
                   / MXN{" "}
                 </span>
-              </h4>
+              </h3>
               <div className="text-base font-normal md:font-light text-iron dark:text-metal  flex flex-col gap-4 mt-10">
                 <p>
                   📹{" "}
@@ -121,15 +126,18 @@ const MyTabs = () => {
             className="w-full md:w-[560px] bg-white dark:bg-[#1B1D22]  rounded-3xl p-6 md:p-12 text-left border-[1px] border-lightGray dark:border-none "
           >
             {" "}
-            <h4 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
+            <p className="mb-3 text-[#DE665F] dark:text-[#C8496C] ">
+              Precio especial Earlybird
+            </p>{" "}
+            <h3 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
               <span className="line-through	">$1,499 </span>{" "}
-              <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
+              <span className=" text-[#DE665F] dark:text-[#C8496C] ml-2">
                 $999{" "}
               </span>
               <span className="text-xl font-normal text-iron dark:text-metal/70  ">
                 / MXN{" "}
               </span>
-            </h4>
+            </h3>
             <div className="text-base font-normal md:font-light text-iron dark:text-metal flex flex-col gap-4 mt-10">
               <p>
                 📹{" "}

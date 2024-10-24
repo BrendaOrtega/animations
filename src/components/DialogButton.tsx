@@ -19,6 +19,7 @@ export default function DialogButton({ className }: { className?: string }) {
     <>
       <div className="">
         <button
+          title="Suscripcion"
           type="button"
           onClick={openModal}
           className={twMerge(
@@ -66,12 +67,14 @@ export default function DialogButton({ className }: { className?: string }) {
                     <img
                       className="w-[320px] h-[480px] object-cover hidden md:block"
                       src="/banner.png"
+                      alt="banner"
                     />
                     <div className="pt-10 relative">
                       <img
                         className="absolute right-4 top-4 cursor-pointer w-10"
                         src="/closeDark.png"
                         onClick={closeModal}
+                        alt="close"
                       />
                       <h3 className="text-2xl  leading-8 text-dark dark:text-white ml-10 pr-10">
                         {" "}

@@ -4,14 +4,19 @@ import { TextGenerateEffect } from "../components/text-generate-effect";
 import { motion, useInView } from "framer-motion";
 import { Tools } from "./Tools";
 import DialogButton from "../components/DialogButton";
-const words = `  Aprende animaciones web con React`;
+const words = `Aprende animaciones web con React`;
 
 export const Hero = () => {
   return (
-    <section className=" flex flex-wrap md:flex-nowrap  bg-contain bg-no-repeat bg-center pt-12 md:pt-[120px] min-h-[90vh] lg:min-h-[95vh]  ">
+    <section className=" flex flex-wrap md:flex-nowrap items-center md:items-start bg-contain bg-no-repeat bg-center pt-12 md:mt-16 lg:pt-[100px] min-h-[85vh] lg:min-h-[88vh]  ">
       <div className="w-full px-6 pt-0 md:px-0 lg:max-w-7xl mx-auto flex flex-col items-center ">
         <Tools />
-        <div className="w-full lg:w-[70%] mx-auto -mt-8 md:mt-12 ">
+        {/* <img
+          className="block md:hidden  w-[80%] mx-auto"
+          src="/hero-img.png"
+          alt="tools"
+        /> */}
+        <div className="w-full lg:w-[70%] mx-auto mt-6 md:mt-0 lg:mt-0 ">
           <TextGenerateEffect words={words} />
           <p className="text-iron dark:text-metal font-normal md:font-light text-center text-lg lg:text-2xl  dark:font-extralight mt-3 mb-12">
             Construye 12 componentes animados para tus proyectos web

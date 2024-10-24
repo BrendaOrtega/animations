@@ -25,6 +25,7 @@ export const Footer = () => {
             <img
               className="hover:opacity-50 transition-all grayscale"
               src="/face.svg"
+              alt="facebook"
             />
           </a>
           <a
@@ -33,6 +34,7 @@ export const Footer = () => {
             rel="noreferrer"
           >
             <img
+              alt="linkedin"
               className="hover:opacity-50 transition-all"
               src="/linkedin.svg"
             />
@@ -43,23 +45,32 @@ export const Footer = () => {
             rel="noreferrer"
           >
             <img
+              alt="twitter"
               className="hover:opacity-50 transition-all"
               src="/twitter.svg"
             />
           </a>
           <a
-            href="https://www.facebook.com/fixterme"
+            href="https://www.instagram.com/fixtergeek/"
             target="_blank "
             rel="noreferrer"
           >
-            <img className="hover:opacity-50 transition-all" src="/insta.svg" />
+            <img
+              alt="instagram"
+              className="hover:opacity-50 transition-all"
+              src="/insta.svg"
+            />
           </a>
           <a
             href="https://wa.me/527757609276"
             target="_blank "
             rel="noreferrer"
           >
-            <img className="hover:opacity-50 transition-all" src="/whats.svg" />
+            <img
+              alt="whats app"
+              className="hover:opacity-50 transition-all"
+              src="/whats.svg"
+            />
           </a>
         </div>
       </div>

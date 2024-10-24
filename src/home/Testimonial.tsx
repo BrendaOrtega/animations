@@ -79,11 +79,13 @@ const Comment = ({
           <img
             className="absolute right-3 w-8 md:w-12 opacity-50 dark:brightness-100 dark:hidden	"
             src="/x.png"
+            alt="Twitter"
           />
 
           <img
             className="absolute right-3 w-8 md:w-12 opacity-20 dark:block 	"
             src="/x-w.png"
+            alt="Twitter"
           />
 
           <CardItem as="p" translateZ="100">
@@ -97,6 +99,7 @@ const Comment = ({
             className="mt-6 md:mt-10 flex gap-3 items-center"
           >
             <img
+              alt="student"
               className="w-12 h-12 rounded-full object-cover"
               src={
                 image

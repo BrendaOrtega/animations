@@ -7,26 +7,26 @@ export const Why = () => {
       {" "}
       <section className="	flex flex-wrap-reverse xl:flex-nowrap gap-[64px] pt-20 pb-16 md:pt-[120px] md:pb-[80px] lg:pt-[160px] lg:pb-[120px]">
         <img
+          alt="students"
           className="h-[240px] w-full xl:w-[42%] object-cover rounded-xl md:h-[320px] xl:h-auto"
           src="https://images.pexels.com/photos/7437487/pexels-photo-7437487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         />
         <div>
           <h2 className="dark:text-white  text-3xl md:text-4xl lg:text-5xl	text-dark font-bold">
-            Porqué tomar este curso 🎯
+            No te conformes con el copy - paste 🎯
           </h2>
           <p className="text-lg  dark:text-metal text-iron font-normal md:font-light mt-6">
-            Aprenderás de forma teórica y práctica desde como elegir tu paleta
-            de color y tipografía, conocer los elementos web y sus casos de uso,
-            tendencias actuales de diseño, hasta como organizar y aplicar
-            pruebas de usabilidad a tu diseño; para al final aplicar todos estos
-            conocimientos.{" "}
+            Si te gustan los componentes animados y los has estado copiando de
+            cuanta biblioteca encuentras pero no entiendes cómo funcionan, no
+            son exacatamente lo que necesitas, no sabes cómo modificarlos o se
+            comportan de forma extraña, entonces este curso es para ti.
           </p>
           <p className="text-lg  dark:text-metal text-iron font-normal md:font-light mt-4">
-            Con este curso aprenderás todo lo necesario para tomar decisiones de
-            diseño, sabrás el porqué de las decisiones que tomas y podrás
-            respaldarlas con buenas prácticas, patrones de diseño y experiencia
-            de usuario.
+            A lo largo de 12 unidades aprenderás a construir componentes
+            animados tu mism@, añadirles tu personalidad y entender exactamente
+            lo que pasa detrás de las animaciones.
           </p>
+          <p className="text-lg  dark:text-metal text-iron font-normal md:font-light mt-4"></p>
           <div className="flex flex-wrap md:flex-nowrap gap-12 mt-12">
             <div className="w-full md:w-[50%] ">
               <h3 className="text-2xl text-wvil text-dark dark:text-white font-semibold">
