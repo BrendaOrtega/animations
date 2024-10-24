@@ -3,6 +3,7 @@ import React from "react";
 import { PrimaryButton } from "../components/PrimaryButton";
 import { ScrollReveal } from "./hero";
 import { AnimatePresence, motion } from "framer-motion";
+import DialogButton from "../components/DialogButton";
 
 export const Pricing = () => {
   return (
@@ -100,9 +101,10 @@ const MyTabs = () => {
                 </p>
                 <p>🫶🏻 Acceso a la comunidad de Disscord</p>
               </div>
-              <PrimaryButton className=" mt-12 w-full ">
+              <DialogButton className="w-full mt-16" />
+              {/* <PrimaryButton className=" mt-12 w-full ">
                 Comprar curso <img src="/cursor.svg" />
-              </PrimaryButton>
+              </PrimaryButton> */}
             </motion.div>
           </Tab.Panel>
         </AnimatePresence>
@@ -160,9 +162,10 @@ const MyTabs = () => {
                 de Fixtergeek
               </p>
             </div>
-            <PrimaryButton className=" mt-12 w-full ">
+            {/* <PrimaryButton className=" mt-12 w-full ">
               Comprar curso <img src="/cursor.svg" />
-            </PrimaryButton>
+            </PrimaryButton> */}
+            <DialogButton className="w-full mt-16" />
           </motion.div>
         </Tab.Panel>
       </Tab.Panels>

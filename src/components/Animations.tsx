@@ -61,7 +61,7 @@ const Card = ({
     <section className="col-span-1 group">
       <div
         className={twMerge(
-          "bg-cover bg-center w-full h-[240px] md:h-[280px] rounded-lg transition-all cursor-pointer dark:border dark:border-lightGray/10",
+          "bg-cover bg-center bg-dark w-full h-[240px] md:h-[280px] rounded-lg transition-all cursor-pointer dark:border dark:border-lightGray/10",
           className
         )}
       ></div>

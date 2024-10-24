@@ -2,8 +2,9 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import React from "react";
 import { BsStopwatch } from "react-icons/bs";
+import { twMerge } from "tailwind-merge";
 
-export default function DialogButton() {
+export default function DialogButton({ className }: { className?: string }) {
   let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
@@ -20,7 +21,10 @@ export default function DialogButton() {
         <button
           type="button"
           onClick={openModal}
-          className="h-14 flex gap-3 hover:scale-95	transition-all font-normal bg-fish text-white  mx-auto  px-8 rounded-full text-lg  items-center justify-center"
+          className={twMerge(
+            "h-14 flex gap-3 hover:scale-95	transition-all font-normal bg-fish text-white  mx-auto  px-8 rounded-full text-lg  items-center justify-center",
+            className
+          )}
         >
           Regístrate a la lista de espera <BsStopwatch />
         </button>
