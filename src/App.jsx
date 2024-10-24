@@ -20,7 +20,7 @@ import { ScrollBanner } from "./home/ScrollBanenr";
 function App() {
   return (
     <main id="main" className="  bg-white dark:bg-dark overflow-hidden">
-      <nav className="fixed h-16  bg-white/40 dark:bg-dark/40 backdrop-blur-md z-[100] w-full  px-6 md:px-[6%] lg:px-0 ">
+      <nav className="fixed h-16  bg-white/40 dark:bg-dark/40 backdrop-blur-md z-[80] w-full  px-6 md:px-[6%] lg:px-0 ">
         <div className="xl:max-w-7xl justify-between items-center h-16 mx-auto flex">
           <a>
             <img className="h-10" src="/Logo.png" alt="logo" />

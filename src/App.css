@@ -1,21 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Jolly+Lodger&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Jolly+Lodger&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Jolly+Lodger&family=Lacquer&family=Reenie+Beanie&display=swap");
 
 .gabarito-bold {
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
 }
 
 .gabarito-extrabold {
   font-family: "Gabarito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
 }
 
 .jolly-lodger-regular {
   font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.lacquer-regular {
+  font-family: "Lacquer", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -26,7 +38,7 @@ h3,
 h4 {
   font-family: "Gabarito", sans-serif !important;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 700 !important;
   font-style: normal;
 }
 

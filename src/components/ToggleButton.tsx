@@ -7,7 +7,8 @@ export const ToggleButton = () => {
 
   const toggle = () => {
     const val = !enabled;
-    const main = document.querySelector("#main");
+    // const main = document.querySelector("#main");
+    const main = document.body;
     if (val) {
       main?.classList.add("dark");
     } else {

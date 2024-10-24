@@ -3,6 +3,7 @@ import { PrimaryButton } from "../components/PrimaryButton";
 import { TextGenerateEffect } from "../components/text-generate-effect";
 import { motion, useInView } from "framer-motion";
 import { Tools } from "./Tools";
+import DialogButton from "../components/DialogButton";
 const words = `  Aprende animaciones web con React`;
 
 export const Hero = () => {
@@ -12,12 +13,13 @@ export const Hero = () => {
         <Tools />
         <div className="w-full lg:w-[70%] mx-auto -mt-8 md:mt-12 ">
           <TextGenerateEffect words={words} />
-          <p className="text-iron dark:text-metal text-center text-lg lg:text-2xl font-light dark:font-extralight mt-3 mb-12">
+          <p className="text-iron dark:text-metal font-normal md:font-light text-center text-lg lg:text-2xl  dark:font-extralight mt-3 mb-12">
             Construye 12 componentes animados para tus proyectos web
           </p>
-          <PrimaryButton className="w-full md:w-auto mx-auto">
+          <DialogButton />
+          {/* <PrimaryButton className="w-full md:w-auto mx-auto">
             Comprar <img src="/cursor.svg" />
-          </PrimaryButton>
+          </PrimaryButton> */}
         </div>
       </div>
     </section>

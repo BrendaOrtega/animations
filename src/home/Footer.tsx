@@ -7,10 +7,13 @@ export const Footer = () => {
           <h3 className="text-white text-3xl md:text-5xl font-bold ">
             Escríbenos.
           </h3>
-          <a href="mailto:hola@fixtergeek.com">
+          <a href="mailto:hola@fixtergeek.com" className="group">
             <p className="text-metal dark:font-extralight text-lg md:text-xl font-light mt-4">
               hola@fixtergeek.com
             </p>
+            <div className="h-1 border-none bg-white/10 w-44 mt-2 rounded-full">
+              <div className="h-1 border-none bg-white w-0 transition-all duration-500 group-hover:w-44 mt-2 rounded-full"></div>
+            </div>
           </a>
         </div>
         <div className="flex gap-4 mt-6 md:mt-0">

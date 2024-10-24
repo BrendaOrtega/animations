@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 export const Animations = () => {
   return (
     <ScrollReveal>
-      <section className="my-[80px] lg:my-[120px]">
+      <section className="my-16 md:my-[80px] lg:my-[120px]">
         <h2 className="text-dark dark:text-white text-3xl md:text-4xl lg:text-5xl	text-evil font-bold text-center">
           ¿Qué componentes vamos a construir? 🎨
         </h2>

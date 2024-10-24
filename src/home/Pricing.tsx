@@ -7,11 +7,11 @@ import { AnimatePresence, motion } from "framer-motion";
 export const Pricing = () => {
   return (
     <ScrollReveal>
-      <section className="text-center py-[80px] lg:py-[120px] ">
+      <section className="text-center py-16 md:py-[80px] lg:py-[120px] ">
         <h2 className="text-3xl md:text-4xl lg:text-5xl	text-evil text-dark dark:text-white font-bold">
           ¿Qué incluye el curso? 🚀
         </h2>
-        <p className="text-lg md:text-2xl text-iron dark:text-metal dark:font-extralight font-light mt-6 mb-16">
+        <p className="text-lg md:text-2xl text-iron dark:text-metal dark:font-extralight font-normal md:font-light mt-4 mb-16">
           Elige tu pack
         </p>
         <MyTabs />
@@ -29,10 +29,10 @@ const MyTabs = () => {
           className="border focus:outline-none data-[selected]:outline-fish data-[selected]:border-fish  data-[hover]:bg-transparent  dark:data-[hover]:bg-[#131316] data-[focus]:outline-1 data-[focus]:outline-white   bg-[#ffffff] dark:bg-transparent border-lightGray dark:border-lightGray/20 w-[48%] md:w-[260px] h-[160px] rounded-3xl flex items-center justify-center"
         >
           <div>
-            <h3 className="text-base md:text-2xl font-medium text-dark dark:text-white">
+            <h3 className="text-xl md:text-2xl font-medium text-dark dark:text-white">
               Animaciones <br /> con React
             </h3>
-            <p className="text-iron font-light dark:text-metal text-sm mt-2">
+            <p className="text-iron font-normal md:font-light dark:text-metal text-sm mt-2">
               Full course
             </p>
           </div>
@@ -44,10 +44,10 @@ const MyTabs = () => {
               className="w-16 absolute -right-3 -top-14 md:-right-10 "
               src="/best-seller.svg"
             />
-            <h3 className="text-base md:text-2xl text-dark dark:text-white font-medium">
+            <h3 className="text-xl md:text-2xl text-dark dark:text-white font-medium">
               Animaciones <br /> con React
             </h3>
-            <p className="text-iron font-light dark:text-metal text-sm mt-2">
+            <p className="text-iron font-normal md:font-light dark:text-metal text-sm mt-2">
               Full course + Player oficial
             </p>
           </div>
@@ -69,18 +69,35 @@ const MyTabs = () => {
               <h4 className="text-dark dark:text-white text-4xl md:text-5xl font-bold	">
                 <span className="line-through	">$999 </span>{" "}
                 <span className=" text-[#FF4B4B] dark:text-[#C8496C] ml-2">
-                  $499{" "}
+                  $599{" "}
                 </span>
                 <span className="text-xl font-normal text-iron dark:text-metal/70 ">
                   / MXN{" "}
                 </span>
               </h4>
-              <div className="text-base font-light text-iron dark:text-metal  flex flex-col gap-4 mt-10">
-                <p>📹 12 unidades con tutoriales en video (1 por componente)</p>
+              <div className="text-base font-normal md:font-light text-iron dark:text-metal  flex flex-col gap-4 mt-10">
+                <p>
+                  📹{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    12 unidades
+                  </strong>{" "}
+                  con tutoriales en video (1 por componente)
+                </p>
                 <p>💪🏻 Learnings y ejercicios por lección</p>
-                <p>📚 Recursos extra </p>
+                <p>
+                  📚 Recopilación de{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    recursos extra{" "}
+                  </strong>
+                </p>
                 <p>💀 Acceso de por vida</p>
-                <p>🚀 Actualizaciones futuras del curso</p>
+                <p>
+                  🚀{" "}
+                  <strong className="font-semibold text-iron dark:text-white/60">
+                    Actualizaciones futuras
+                  </strong>{" "}
+                  del curso
+                </p>
                 <p>🫶🏻 Acceso a la comunidad de Disscord</p>
               </div>
               <PrimaryButton className=" mt-12 w-full ">
@@ -111,7 +128,7 @@ const MyTabs = () => {
                 / MXN{" "}
               </span>
             </h4>
-            <div className="text-base font-light text-iron dark:text-metal flex flex-col gap-4 mt-10">
+            <div className="text-base font-normal md:font-light text-iron dark:text-metal flex flex-col gap-4 mt-10">
               <p>
                 📹{" "}
                 <strong className="font-semibold text-iron dark:text-white/60">

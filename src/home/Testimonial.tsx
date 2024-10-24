@@ -5,7 +5,7 @@ import { CardBody, CardContainer, CardItem } from "../components/3dcard";
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 md:py-20 xl:py-[120px]">
+    <section className="py-16 md:py-20 xl:py-[120px]">
       <h2 className="text-dark dark:text-white text-3xl md:text-4xl lg:text-5xl text-center 	text-evil font-bold">
         Qué dicen nuestros estudiantes
       </h2>
@@ -87,7 +87,7 @@ const Comment = ({
           />
 
           <CardItem as="p" translateZ="100">
-            <p className="text-base md:text-lg text-iron dark:text-metal font-light mt-8 md:mt-12 xl:mt-16">
+            <p className="text-base md:text-lg text-iron dark:text-metal font-normal md:font-light mt-8 md:mt-12 xl:mt-16">
               "{comment}"
             </p>
           </CardItem>

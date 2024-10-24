@@ -8,12 +8,12 @@ import { ScrollReveal } from "./hero";
 
 export const Faq = () => (
   <ScrollReveal>
-    <section className="lg:pt-[120px] lg:pb-[160px] pt-20 pb-[120px]">
+    <section className="lg:pt-[120px] lg:pb-[160px] md:pt-20 pt-16 pb-[120px]">
       <h2 className=" text-dark  dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold text-center">
         {" "}
         ¿Tienes alguna duda ? 🎨
       </h2>
-      <p className="text-base md:text-lg text-iron dark:text-metal dark:font-extralight font-light mt-6 mb-16 text-center">
+      <p className="text-base md:text-lg text-iron dark:text-metal dark:font-extralight font-normal md:font-light mt-4 mb-8 md:mb-16 text-center">
         Si no encuentras la respuesta que buscas por favor escríbenos por{" "}
         <a
           href="https://wa.me/525539599400"
@@ -59,7 +59,7 @@ export const Faq = () => (
           />{" "}
           <Question
             question="¿Emiten factura fiscal?"
-            answer="Sí, despues de suscribirte al Plan PRO completa tus datos fiscales desde tu perfil>Administrar plan y te haremos llegar tu fatura vía email, si tienes alguna duda escríbenos a hola@formmy.app"
+            answer="Sí, despues de suscribirte al Plan PRO completa tus datos fiscales desde tu perfil>Administrar plan y te haremos llegar tu fatura vía email, si tienes alguna duda escríbenos a hola@fixtergeek.com"
           />
         </div>
       </div>
@@ -99,7 +99,7 @@ export const Question = ({
             exit={{ opacity: 0, height: 0 }}
             transition={{ type: "spring", duration: 0.4, bounce: 0 }}
           >
-            <p className="text-base md:text-lg text-iron dark:text-metal  font-light px-6 pb-8">
+            <p className="text-base md:text-lg text-iron dark:text-metal  font-normal md:font-light px-6 pb-8">
               {answer}
             </p>
           </motion.div>

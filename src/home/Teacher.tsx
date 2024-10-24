@@ -7,18 +7,18 @@ import { FaGithub } from "react-icons/fa6";
 export const Teacher = () => {
   return (
     <ScrollReveal>
-      <section className="flex overflow-hidden flex-wrap lg:flex-nowrap bg-[#FAFAFF] dark:bg-transparent dark:border dark:border-white/10 px-6  md:pr-0 md:pl-12 gap-12 justify-between rounded-[40px] my-10 md:my-20 lg:my-[120px]">
+      <section className="flex overflow-hidden flex-wrap lg:flex-nowrap bg-[#FAFAFF] dark:bg-transparent dark:border dark:border-white/10 px-6  md:pr-0 md:pl-12 gap-12 justify-between rounded-[40px] my-8 md:my-20 lg:my-[120px]">
         <div className="w-full lg:w-[45%] pt-8 pb-6 md:py-12">
-          <span className="text-dark dark:text-metal font-light dark:font-extralight  text-xl">
+          <span className="text-dark dark:text-metal font-normal md:font-light dark:font-extralight  text-xl">
             ¿Quien será tu instructor? 🧑🏻‍🏫
           </span>
           <h2 className="font-semibold text-2xl md:text-5xl dark:text-white mb-2 mt-6 text-dark">
             Héctor Bliss
           </h2>
-          <span className="dark:text-metal/80 dark:font-extralight font-light text-iron">
+          <span className="dark:text-metal/80 dark:font-extralight font-normal md:font-light text-iron">
             Software Engineer & Lead Teacher
           </span>
-          <p className="mt-12 text-iron dark:text-metal dark:font-extralight font-light ">
+          <p className="mt-12 text-iron dark:text-metal dark:font-extralight font-normal md:font-light ">
             Con más de 10 años de experiencia como desarrollador de software
             profesional e instructor tecnológico, Héctor Bliss disfruta de
             simplificar temas complejos para que sus estudiantes puedan{" "}
@@ -35,7 +35,7 @@ export const Teacher = () => {
             acercando las herramientas que usan los profesionales nivel mundial
             a sus estudiantes de habla hispana.{" "}
           </p>
-          <p className="mt-6 text-iron dark:text-metal dark:font-extralight font-light ">
+          <p className="mt-6 text-iron dark:text-metal dark:font-extralight font-normal md:font-light ">
             {" "}
             Si no has experimentado una clase con Héctor Bliss,{" "}
             <strong className="text-gray-800 dark:text-white/60 font-medium ">
