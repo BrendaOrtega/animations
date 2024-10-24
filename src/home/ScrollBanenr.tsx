@@ -4,7 +4,7 @@ import { Marquee } from "../components/Banners";
 export const ScrollBanner = () => {
   return (
     <>
-      <Marquee className="lacquer-regular bg-dark">
+      <Marquee className="lacquer-regular bg-dark dark:bg-white">
         No más sitios web estáticos <span className="mx-3">🪄</span> Agrega
         animaciones a tu sitio web
         <span className="mx-3">🧙🏻</span> Personaliza tus animaciones
@@ -12,7 +12,7 @@ export const ScrollBanner = () => {
         <span className="mx-3">🎛️</span> Haz a tu sitio web diferente{" "}
         <span className="mx-3">🎨</span> React + Framer Motion = 🧩{" "}
       </Marquee>
-      <Marquee reversed className="bg-fish lacquer-regular">
+      <Marquee reversed className="bg-fish lacquer-regular text-white!">
         Scroll Animations<span className="mx-3">🎐</span> Parallax
         <span className="mx-3">💻</span> Efectos 3d{" "}
         <span className="mx-3">🎯</span> Drawers<span className="mx-3">👀</span>{" "}

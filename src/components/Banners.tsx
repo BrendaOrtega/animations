@@ -19,7 +19,7 @@ export const Marquee = ({
   return (
     <>
       <article className={cn("flex justify-center items-center", className)}>
-        <div className="h-16 md:h-20 flex items-center text-gray-100  text-2xl lg:text-3xl font-extrabold overflow-hidden">
+        <div className="h-16 md:h-20 flex items-center text-gray-100 dark:text-dark  text-2xl lg:text-3xl font-extrabold overflow-hidden">
           <motion.div style={{ x }} className="whitespace-nowrap" ref={ref}>
             {children} {children}
           </motion.div>
